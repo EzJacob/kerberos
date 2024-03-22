@@ -1,2 +1,2 @@
-# kerberos
-A simulation of the kerberos protocol.
+# Messaging system based on the Kerberos protocol
+
