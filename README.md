@@ -2,10 +2,11 @@
 
 This project implements a secure messaging system leveraging the Kerberos authentication protocol. It includes an authentication server, a message server, and a client application. Additionally, this project demonstrates a dictionary attack on the Kerberos protocol to highlight potential security vulnerabilities.
 
-How to run the project:
-    running the authentication server from the 'server' dictionary:    python auth_server_main.py
-    running the message server from the 'server' dictionary:           python msg_server_main.py
-    running the client from the 'client_handler' dictionary:           python main_client.py
+# How to run the project:
+
+running the authentication server from the 'server' dictionary:    python auth_server_main.py
+running the message server from the 'server' dictionary:           python msg_server_main.py
+running the client from the 'client_handler' dictionary:           python main_client.py
 
 # The attack code explained:
 
