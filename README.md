@@ -11,7 +11,6 @@ The attack code explained:
     The values that I "pulled" are client_id, nonce and (nonce + aes_key) encrypted.
     Every 3 lines consecutively in the 'users.txt' file are information about a specific client.
     The first line is client_id. The second line is nonce. The third line is (nonce + aes_key) encrypted.
-    
     The script 'attack.py' is using the 'password.txt' file to try to decrypt the (nonce + aes_key) and if there is a match between the 
     given nonce from the 'user.txt' file and the decrypted nonce then the password was discoverd for UUID.
     The script 'attack.py' will do a dictionary attack and try to discover passwords for UUID.
