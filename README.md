@@ -4,9 +4,15 @@ This project implements a secure messaging system leveraging the Kerberos authen
 
 # How to run the project:
 
-running the authentication server from the 'server' dictionary:    python auth_server_main.py
-running the message server from the 'server' dictionary:           python msg_server_main.py
-running the client from the 'client_handler' dictionary:           python main_client.py
+<pre>
+running the authentication server from the 'server' dictionary:    python auth_server_main.py<br>
+</pre>
+<pre>
+running the message server from the 'server' dictionary:           python msg_server_main.py<br>
+</pre>
+<pre>
+running the client from the 'client_handler' dictionary:           python main_client.py<br>
+</pre>
 
 # The attack code explained:
 
